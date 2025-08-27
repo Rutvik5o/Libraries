@@ -1,0 +1,113 @@
+barplot
+
+Use when: You want to compare average values (with confidence intervals) across categories.
+
+Example: Average salary by department.
+
+countplot
+
+Use when: You want to count frequency of categories (like a histogram for categories).
+
+Example: Number of students in each class section.
+
+boxplot
+
+Use when: You want to compare distribution & summary statistics (median, IQR, outliers) across categories.
+
+Example: Exam scores by gender.
+
+violinplot
+
+Use when: Same as boxplot, but also want to see the shape/density of distribution.
+
+Example: Income distribution across job types.
+
+stripplot
+
+Use when: Show individual data points along with categories (works best for small datasets).
+
+Example: Marks of each student in two different schools.
+
+swarmplot
+
+Use when: Like stripplot, but avoids overlap by arranging points.
+
+Example: Age of patients grouped by treatment type.
+
+📈 Distribution Plots
+
+histplot
+
+Use when: Show distribution of a single numeric variable (frequency bins).
+
+Example: Distribution of ages in a survey.
+
+kdeplot
+
+Use when: Show a smoothed distribution curve (good for continuous data).
+
+Example: Weight distribution in population.
+
+rugplot
+
+Use when: Show raw data points along an axis (useful for small datasets).
+
+Example: Showing actual values of exam marks under a histogram.
+
+🔗 Relationship Plots
+
+scatterplot
+
+Use when: Explore relationship between two numerical variables.
+
+Example: Height vs weight of individuals.
+
+lineplot
+
+Use when: Show trend over continuous variable (often time series).
+
+Example: Stock price over time.
+
+relplot
+
+Use when: High-level interface for scatter/line plots with facets.
+
+Example: Sales vs profit across multiple regions.
+
+📐 Matrix & Heatmaps
+
+heatmap
+
+Use when: Show a matrix of values with colors (great for correlation matrices).
+
+Example: Correlation between exam subjects.
+
+clustermap
+
+Use when: Heatmap + hierarchical clustering (groups similar rows/cols).
+
+Example: Gene expression clustering in biology.
+
+📚 Pair & Joint Plots
+
+pairplot
+
+Use when: Show scatterplots + histograms for multiple numerical variables.
+
+Example: Iris dataset (petal length, petal width, etc.).
+
+jointplot
+
+Use when: Show relationship between two variables with marginal distributions.
+
+Example: Income vs spending score with histograms on sides.
+
+✅ Quick Shortcut:
+
+Category vs Number → barplot, countplot, boxplot, violinplot, strip/swarmplot.
+
+Single Number Distribution → histplot, kdeplot, rugplot.
+
+Two Numbers (Relationship) → scatterplot, lineplot, relplot.
+
+Multiple Variables → heatmap, pairplot, jointplot.
